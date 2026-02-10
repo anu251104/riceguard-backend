@@ -1,7 +1,4 @@
-import os
 
-os.environ["YOLO_CONFIG_DIR"] = "/tmp/Ultralytics"
-os.environ["ULTRALYTICS_SETTINGS"] = "False"
 
 from fastapi import FastAPI, File, UploadFile, Body, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
