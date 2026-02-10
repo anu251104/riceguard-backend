@@ -27,7 +27,11 @@ app.add_middleware(
 )
 
 # 🔥 LOAD YOUR RETRAINED MODEL HERE
-MODEL_PATH = "models/best.pt"
+MODEL_PATH = os.path.join(
+    os.path.dirname(__file__)
+    "models",
+    "best.pt"
+)
 
 model = YOLO(MODEL_PATH)
 
