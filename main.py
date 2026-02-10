@@ -1,5 +1,3 @@
-
-
 from fastapi import FastAPI, File, UploadFile, Body, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from ultralytics import YOLO
@@ -131,7 +129,3 @@ def login(data: dict = Body(...)):
         "token": "demo-token",
         "user": users[email]["name"]
     }
-
-
-
-
