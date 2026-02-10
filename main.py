@@ -22,7 +22,7 @@ app.add_middleware(
 )
 
 # 🔥 LOAD YOUR RETRAINED MODEL HERE
-MODEL_PATH = "runs/classify/runs/classify/rice_guard/weights/best.pt"
+MODEL_PATH = "models/best.pt"
 
 model = YOLO(MODEL_PATH)
 
