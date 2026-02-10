@@ -3,4 +3,5 @@ uvicorn
 python-multipart
 pillow
 ultralytics
-torch==2.5.1+cpu
+torch
+torchvision
