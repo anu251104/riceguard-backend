@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+runs/
+datasets/
+dataset/
+*.pt
+node_modules/
