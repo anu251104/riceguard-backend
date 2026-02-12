@@ -6,5 +6,5 @@ venv/
 runs/
 datasets/
 dataset/
-*.pt
+
 node_modules/

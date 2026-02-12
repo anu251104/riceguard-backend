@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "C:\\Users\\Sai\\Desktop\\app2\\datasets",
+  "weights_dir": "C:\\Users\\Sai\\Desktop\\app2\\backend\\weights",
+  "runs_dir": "C:\\Users\\Sai\\Desktop\\app2\\backend\\runs",
+  "uuid": "1707a377091f59685abf223acbcf7ed678fd0f3ca46ea4211adb5952bd226814",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}
