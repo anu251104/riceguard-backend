@@ -146,6 +146,12 @@ model = YOLO(MODEL_PATH)
 model.to("cpu")
 
 
+
+
+
+
+
+
 def hash_password(password: str):
     import hashlib
     return hashlib.sha256(password.encode()).hexdigest()
@@ -308,6 +314,7 @@ Rules:
     except Exception as e:
         print("NVIDIA ERROR:", str(e))
         raise HTTPException(status_code=500, detail="AI service failed")
+
 
 
 
